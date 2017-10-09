@@ -38,10 +38,9 @@ Author: uiCookies.com
 
 body {
     font-family : 'Roboto', sans-serif;
-    font-size   : 17px;
+    font-size   : 20px;
     line-height : 1.7em;
     color       : #353e55;
-    font-weight : 100;
     background  : #ffffff;
     border      : 10px solid #fff;
     }
@@ -520,9 +519,11 @@ button:focus,
  * Agenda
  *---------------------------*/
 .section-ajenda .session {
-    padding       : 10px 0;
-    border-left   : 1px solid #eeeeee;
-    margin-bottom : 10px;
+    padding       : 20px 0;
+    border-left   : 50px solid #eeeeee;
+	border-top	  : 1px solid #eeeeee;
+	border-bottom : 1px solid #eeeeee;
+    margin-bottom : 20px;
     }
 
 .section-ajenda .session time {
