@@ -521,23 +521,30 @@ button:focus,
 .section-ajenda .session {
     padding       : 20px 0;
     border-left   : 50px solid #eeeeee;
-	border-top	  : 1px solid #eeeeee;
-	border-bottom : 1px solid #eeeeee;
+	border-top	  : 3px solid #eeeeee;
+	border-bottom : 3px solid #eeeeee;
+	border-right  : 3px solid #eeeeee;
     margin-bottom : 20px;
     }
 
 .section-ajenda .session time {
-    padding       : 5px 25px 15px;
-    border-bottom : 1px solid #eeeeee;
+    padding       : 1px 25px 1px;
     display       : inline-block;
+    }
+	
+.section-ajenda .session name {
+	display: block;
+    margin : 20px 0 0 20px;
+    font-size      : 30px;
+    text-transform : uppercase;
     }
 
 .section-ajenda .session h2 {
-    margin : 20px 0 0 20px;
+    margin : 20px 0 0 50px;
     }
 
 .section-ajenda .session h3 {
-    margin         : 20px 0 20px 20px;
+    margin         : 20px 0 20px 50px;
     font-size      : 20px;
     text-transform : uppercase;
     }
