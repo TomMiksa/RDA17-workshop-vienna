@@ -477,7 +477,7 @@ button:focus,
     }
 
 .team .thumbnail h3 {
-    font-size        : 16px;
+    font-size        : 22px;
     font-weight: bold;
 
     margin           : 0 40px;
@@ -488,12 +488,20 @@ button:focus,
 
 
 .team .thumbnail h3 small {
-    font-size: 14px;
+    font-size: 17px;
     color     : #888;
     display: block;
     font-weight: normal;
     }
 
+.team .thumbnail h3 rda {
+    font-size: 17px;
+    color     : #888;
+    display: block;
+	line-height: 100%;
+    font-weight: bold;
+	font-style: italic;
+    }
 
 .team .social-links li {
     display      : inline-block;
